@@ -40,7 +40,7 @@ jobs:
             - name: Set up Python
               uses: actions/checkout@v6
               with:
-               python-version: 3.14
+                python-version: 3.14
 
             - name: Verify python version
               run: python --version
