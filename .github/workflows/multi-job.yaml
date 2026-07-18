@@ -38,7 +38,7 @@ jobs:
               run: echo "This is job 2"
 
             - name: Set up Python
-              uses: actions/checkout@v6
+              uses: actions/setup-python@v6
               with:
                 python-version: 3.14
 
